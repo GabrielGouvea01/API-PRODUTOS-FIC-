@@ -24,7 +24,7 @@ produtos = [
 ]
 
 #Criar uma rota e o metodo GET(visualizar os dados)
-@app.route("/listar", methods=['GET'])
+@app.route("/", methods=['GET'])
 def exibirProdutos():
     return jsonify(produtos)
 
